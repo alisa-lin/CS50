@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 #include <math.h>
+//may come back and define get_float so that cs50.h is not needed
 
 int main(void)
 {
@@ -10,7 +11,8 @@ int main(void)
     {
         change = get_float("Change owed: ");
     }
-
+    // could also write using do { } while
+    
     int changeInCents = round(change * 100);
 
     int numCoins = 0;
