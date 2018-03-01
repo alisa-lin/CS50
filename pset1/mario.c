@@ -1,7 +1,7 @@
-//mario
-
 #include <stdio.h>
 #include <cs50.h>
+// this code will not work without the CS50 library
+//I may come back and define get_int so that it works with cs50.h once I learn how to do that
 
 int main(void)
 {
